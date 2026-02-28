@@ -3,27 +3,27 @@ import { Package, Truck, ShieldCheck, Users } from 'lucide-react'
 const services = [
   {
     icon: Truck,
-    title: 'Gonderim ve Dagitim',
+    title: 'Gönderim ve Dagitim',
     description:
       '81 ile PTT kargo aracılığıyla ürünlerimizi göndermekteyiz kargo ücreti bizlere aittir',
   },
   {
     icon: Package,
-    title: 'Urun Toplama',
+    title: 'Ürün Toplama',
     description:
-      'Paketlenmis urunleri düzenli olarak calısşanlarımızdan teslim alırız. Her urun ozenle kontrol edilir ve maaş ödemesi yapılır.',
+      'Paketlenmis ürünleri düzenli olarak calışanlarımızdan teslim alırız. Her ürün özenle kontrol edilir ve maaş ödemesi yapılır.',
   },
   {
     icon: ShieldCheck,
-    title: 'Devlet Onayli Hizmet',
+    title: 'Devlet Onaylı Hizmet',
     description:
-      'Maliye Bakanlığı onaylı olarak faaliyet gostermekteyiz. Tum islemler yasal çerçevede, güvenilir ve seffaf sekilde yürütülür.',
+      'Maliye Bakanlığı onaylı olarak faaliyet göstermekteyiz. Tum islemler yasal çerçevede, güvenilir ve seffaf sekilde yürütülür.',
   },
   {
     icon: Users,
-    title: 'is Ortaklığı',
+    title: 'İs Ortaklığı',
     description:
-      'Müşterilerimize paketleme isi gondererek evden calışma imkanı sağlıyoruz. Satış yapılmaz, devlet onaylı gonderim ve dağıtım hizmeti sunulmaktadır.',
+      'Müşterilerimize paketleme işi gondererek evden calışma imkanı sağlıyoruz. Satış yapılmaz, devlet onaylı gonderim ve dağıtım hizmeti sunulmaktadır.',
   },
 ]
 
