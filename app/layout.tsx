@@ -15,7 +15,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: 'ANKA PAKETLEME - Devlet Onaylı Resmi Site',
-  description: 'Devlet onayli paketleme ve gonderim hizmeti. Guvenilir, profesyonel paketleme cozumleri.',
+  description: 'Devlet onayli paketleme ve TÜRKİYE'NİN PAKETLEME SİTESİ.',
   manifest: '/manifest.json',
 }
 
