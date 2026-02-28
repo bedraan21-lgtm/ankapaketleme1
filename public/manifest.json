@@ -1,0 +1,9 @@
+{
+  "name": "ANKA PAKETiME",
+  "short_name": "AnkaPaketim",
+  "description": "Devlet onayli paketleme ve gonderim hizmeti.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F7FA",
+  "theme_color": "#0A1F3F"
+}
