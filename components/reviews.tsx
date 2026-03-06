@@ -9,7 +9,7 @@ const reviews = [
     city: 'Istanbul',
     avatar: '/images/review-1.jpg',
     comment:
-      'Anka Paketleme sayesinde evden calisarak ek gelir elde ediyorum. Maaşım hızlı geliyor, teslim sureleri cok iyi.',
+      'Anka Paketleme sayesinde evden calışarak ek gelir elde ediyorum. Maaşım hızlı geliyor, teslim sureleri cok iyi.',
   },
   {
     name: 'Mehmet Kaya',
