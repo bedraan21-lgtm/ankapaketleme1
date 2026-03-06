@@ -133,7 +133,7 @@ export default function ApplicationForm() {
                   onChange={(e) => setForm({ ...form, city: e.target.value })}
                   className="h-12 w-full rounded-lg border border-input bg-card px-4 text-base text-card-foreground focus:border-ring focus:outline-none focus:ring-2 focus:ring-ring/20"
                 >
-                  <option value="">Şehir seçin</option>
+                  <option value="">Şehir secin</option>
                   {cities.map((city) => (
                     <option key={city} value={city}>
                       {city}
@@ -154,7 +154,7 @@ export default function ApplicationForm() {
                   max={80}
                   value={form.age}
                   onChange={(e) => setForm({ ...form, age: e.target.value })}
-                  placeholder="Yaşınızı girin"
+                  placeholder="Yasinizi girin"
                   className="h-12 w-full rounded-lg border border-input bg-card px-4 text-base text-card-foreground placeholder:text-muted-foreground focus:border-ring focus:outline-none focus:ring-2 focus:ring-ring/20"
                 />
               </div>
