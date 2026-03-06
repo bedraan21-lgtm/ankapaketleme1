@@ -11,7 +11,7 @@ const services = [
     icon: Package,
     title: 'Ürün Toplama',
     description:
-      'Paketlenmis ürünleri düzenli olarak çalışanlarımızdan teslim alırız. Her ürün özenle kontrol edilir ve maaş ödemesi yapılır.',
+      'Paketlenmiş ürünleri düzenli olarak çalışanlarımızdan teslim alırız. Her ürün özenle kontrol edilir ve maaş ödemesi yapılır.',
   },
   {
     icon: ShieldCheck,
