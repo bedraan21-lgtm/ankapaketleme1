@@ -6,10 +6,10 @@ import { Menu, X, Package, Shield } from 'lucide-react'
 const navLinks = [
   { label: 'Ana Sayfa', href: '#hero' },
   { label: 'Hizmetler', href: '#services' },
-  { label: 'Urunler', href: '#gallery' },
+  { label: 'Ürünler', href: '#gallery' },
   { label: 'Yorumlar', href: '#reviews' },
-  { label: 'Basvuru', href: '#apply' },
-  { label: 'Iletisim', href: '#contact' },
+  { label: 'Başvuru', href: '#apply' },
+  { label: 'İletişim', href: '#contact' },
 ]
 
 export default function Header() {
@@ -37,7 +37,7 @@ export default function Header() {
           </span>
         </a>
 
-        {/* Maliye Bakanligi Onayli Badge */}
+        {/* Maliye Bakanlığı Onaylı Badge */}
         <div className="hidden items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-3 py-1.5 md:flex">
           <Shield className="h-4 w-4 text-accent" />
           <span className="text-xs font-semibold text-accent">Maliye Bakanlığı Onaylı</span>
