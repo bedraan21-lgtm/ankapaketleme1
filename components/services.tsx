@@ -3,7 +3,7 @@ import { Package, Truck, ShieldCheck, Users } from 'lucide-react'
 const services = [
   {
     icon: Truck,
-    title: 'Gönderim ve Dagitim',
+    title: 'Gönderim ve Dağıtım',
     description:
       '81 ile PTT kargo aracılığıyla ürünlerimizi göndermekteyiz kargo ücreti bizlere aittir',
   },
@@ -11,19 +11,19 @@ const services = [
     icon: Package,
     title: 'Ürün Toplama',
     description:
-      'Paketlenmis ürünleri düzenli olarak calışanlarımızdan teslim alırız. Her ürün özenle kontrol edilir ve maaş ödemesi yapılır.',
+      'Paketlenmis ürünleri düzenli olarak çalışanlarımızdan teslim alırız. Her ürün özenle kontrol edilir ve maaş ödemesi yapılır.',
   },
   {
     icon: ShieldCheck,
     title: 'Devlet Onaylı Hizmet',
     description:
-      'Maliye Bakanlığı onaylı olarak faaliyet göstermekteyiz. Tum islemler yasal çerçevede, güvenilir ve seffaf sekilde yürütülür.',
+      'Maliye Bakanlığı onaylı olarak faaliyet göstermekteyiz. Tüm işlemler yasal çerçevede, güvenilir ve şeffaf şekilde yürütülür.',
   },
   {
     icon: Users,
-    title: 'İs Ortaklığı',
+    title: 'is Ortaklığı',
     description:
-      'Müşterilerimize paketleme işi gondererek evden calışma imkanı sağlıyoruz. Satış yapılmaz, devlet onaylı gonderim ve dağıtım hizmeti sunulmaktadır.',
+      'Müşterilerimize paketleme işi göndererek evden calışma imkanı sağlıyoruz. Satış yapılmaz, devlet onaylı gonderim ve dağıtım hizmeti sunulmaktadır.',
   },
 ]
 
@@ -39,7 +39,7 @@ export default function Services() {
             {'Neler Sunuyoruz?'}
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-pretty text-muted-foreground">
-            {'Satis yapilmaz. Devlet onayli gonderim ve dagitim hizmeti sunulmaktadir.'}
+            {'Satış yapılmaz. Devlet onaylı gönderim ve dağıtım hizmeti sunulmaktadır.'}
           </p>
         </div>
 
