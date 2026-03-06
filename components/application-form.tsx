@@ -40,7 +40,7 @@ export default function ApplicationForm() {
       }
 
       setStatus('success')
-      setMessage('Basvurunuz basariyla alindi! En kisa surede sizinle iletisime gececegiz.')
+      setMessage('Basvurunuz başarıyla alındı! En kısaa sürede sizinle iletişime geçeceğiz.')
       setForm({ fullName: '', phone: '', city: '', age: '' })
     } catch {
       setStatus('error')
@@ -102,7 +102,7 @@ export default function ApplicationForm() {
                   minLength={3}
                   value={form.fullName}
                   onChange={(e) => setForm({ ...form, fullName: e.target.value })}
-                  placeholder="Adinizi ve soyadinizi girin"
+                  placeholder="Adınızı ve soyadınızı girin"
                   className="h-12 w-full rounded-lg border border-input bg-card px-4 text-base text-card-foreground placeholder:text-muted-foreground focus:border-ring focus:outline-none focus:ring-2 focus:ring-ring/20"
                 />
               </div>
@@ -133,7 +133,7 @@ export default function ApplicationForm() {
                   onChange={(e) => setForm({ ...form, city: e.target.value })}
                   className="h-12 w-full rounded-lg border border-input bg-card px-4 text-base text-card-foreground focus:border-ring focus:outline-none focus:ring-2 focus:ring-ring/20"
                 >
-                  <option value="">Sehir secin</option>
+                  <option value="">Şehir secin</option>
                   {cities.map((city) => (
                     <option key={city} value={city}>
                       {city}
@@ -144,7 +144,7 @@ export default function ApplicationForm() {
 
               <div>
                 <label htmlFor="age" className="mb-1.5 block text-sm font-medium text-foreground">
-                  Yas
+                  Yaş
                 </label>
                 <input
                   id="age"
@@ -165,11 +165,11 @@ export default function ApplicationForm() {
                 className="flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-accent text-base font-semibold text-accent-foreground transition-colors hover:bg-accent/90 disabled:opacity-50"
               >
                 {status === 'loading' ? (
-                  <span>Gonderiliyor...</span>
+                  <span>Gönderiliyor...</span>
                 ) : (
                   <>
                     <Send className="h-4 w-4" />
-                    <span>Basvuru Gonder</span>
+                    <span>Başvuru GÖnder</span>
                   </>
                 )}
               </button>
