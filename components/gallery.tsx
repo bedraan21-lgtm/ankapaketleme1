@@ -16,13 +16,13 @@ export default function Gallery() {
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="text-center">
           <span className="text-sm font-semibold uppercase tracking-wider text-accent">
-            Urunler
+            Ürünler
           </span>
           <h2 className="mt-2 text-balance text-2xl font-bold text-foreground md:text-3xl lg:text-4xl">
-            {'Paketleme Urunlerimiz'}
+            {'Paketleme Ürünlerimiz'}
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-pretty text-muted-foreground">
-            {'Gosterim amaclidir. Bu urunler satisa sunulmamaktadir.'}
+            {'Gösterim amaclıdır.'}
           </p>
         </div>
 
