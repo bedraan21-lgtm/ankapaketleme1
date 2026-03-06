@@ -15,7 +15,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-primary-foreground/60">
-              Firmamız tarafından ürünler (çop) çalışanlarımıza ulaştırılmakta,
+              Firmamız tarafından ürünler (çoxp) çalışanlarımıza ulaştırılmakta,
               paketleme işlemleri çalışanlarımız tarafından gerçekleştirilmektedir.
               Paketleme süreci tamamlanan ürünler firmamızca geri teslim alınarak
               Türkiye’nin 81 iline sevk ve dağıtımı sağlanmaktadır.
