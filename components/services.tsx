@@ -33,7 +33,7 @@ export default function Services() {
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="text-center">
           <span className="text-sm font-semibold uppercase tracking-wider text-accent">
-            Hizmetlerimiz
+            Hizmetlerimiz.
           </span>
           <h2 className="mt-2 text-balance text-2xl font-bold text-foreground md:text-3xl lg:text-4xl">
             {'Neler Sunuyoruz?'}
