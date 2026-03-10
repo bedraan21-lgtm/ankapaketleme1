@@ -19,14 +19,14 @@ export default function Hero() {
         </div>
 
         <h1 className="text-balance text-3xl font-bold leading-tight tracking-tight text-primary-foreground md:text-5xl lg:text-6xl">
-          Türkiye'nin Tek Paketleme Sayfası ve
+          Türkiye'nin Tek Paketleme Sayfası
           <br />
           <span className="text-accent">ANKA</span>
         </h1>
 
         <p className="mt-6 max-w-2xl text-pretty text-base leading-relaxed text-primary-foreground/70 md:text-lg">
           {`Firmamız, çalışanlarımıza ürünleri (çorap) göndererek paketleme sürecini organize etmektedir. 
-Paketleme işlemleri tamamlandıktan sonra ürünler tarafımızca teslim alınmakta ve Türkiye’nin 81 iline dağıtımı sağlanmaktadır.
+Paketleme işlemleri tamamlandıktan sonra ürünler tarafımızca teslim alınmakta ve Türkiye nin 81 iline dağıtımı sağlanmaktadır.
 
 Satış yapılmamaktadır. Sunulan hizmet yalnızca gönderim ve dağıtım süreçlerini kapsamaktadır. Tüm operasyonlar yasal çerçevede yürütülmektedir.`}
         </p>
