@@ -109,10 +109,13 @@ export default function AdminPage() {
 
   const fetchData = useCallback(async () => {
     try {
-      const res = await fetch('/api/admin/data', { credentials: 'same-origin' })
-      if (res.ok) {
-        const data = await res.json()
-        setApplications(data.applications || [])
+      const { data, error } = await supabase
+  .from("basvurular")
+  .select("*")
+
+if (!error) {
+  setApplications(data || [])
+}
         setProducts(data.products || [])
         setAnnouncements(data.announcements || [])
       }
