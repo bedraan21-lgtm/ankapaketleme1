@@ -58,7 +58,7 @@ export default function Header() {
         <button
           onClick={() => setOpen(!open)}
           className="flex h-11 w-11 items-center justify-center rounded-md text-primary-foreground lg:hidden"
-          aria-label={open ? 'Menuyu kapat' : 'Menuyu ac'}
+          aria-label={open ? 'Menüyü kapat' : 'Menuyu ac'}
         >
           {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
