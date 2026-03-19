@@ -6,10 +6,10 @@ import { Menu, X, Package, Shield } from 'lucide-react'
 const navLinks = [
   { label: 'Ana Sayfa', href: '#hero' },
   { label: 'Hizmetler', href: '#services' },
-  { label: 'Ürünler', href: '#gallery' },
+  { label: 'Urunler', href: '#gallery' },
   { label: 'Yorumlar', href: '#reviews' },
-  { label: 'Başvuru', href: '#apply' },
-  { label: 'İletişim', href: '#contact' },
+  { label: 'Basvuru', href: '#apply' },
+  { label: 'Iletisim', href: '#contact' },
 ]
 
 export default function Header() {
@@ -37,7 +37,7 @@ export default function Header() {
           </span>
         </a>
 
-        {/* Maliye Bakanlığı Onaylı Badge */}
+        {/* Maliye Bakanligi Onayli Badge */}
         <div className="hidden items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-3 py-1.5 md:flex">
           <Shield className="h-4 w-4 text-accent" />
           <span className="text-xs font-semibold text-accent">Maliye Bakanlığı Onaylı</span>
@@ -58,7 +58,7 @@ export default function Header() {
         <button
           onClick={() => setOpen(!open)}
           className="flex h-11 w-11 items-center justify-center rounded-md text-primary-foreground lg:hidden"
-          aria-label={open ? 'Menüyü kapat' : 'Menuyu ac'}
+          aria-label={open ? 'Menuyu kapat' : 'Menuyu ac'}
         >
           {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>

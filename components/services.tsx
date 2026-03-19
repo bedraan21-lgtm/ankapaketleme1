@@ -3,27 +3,27 @@ import { Package, Truck, ShieldCheck, Users } from 'lucide-react'
 const services = [
   {
     icon: Truck,
-    title: 'Gönderim ve Dağıtım',
+    title: 'Gonderim ve Dagitim',
     description:
       '81 ile PTT kargo aracılığıyla ürünlerimizi göndermekteyiz kargo ücreti bizlere aittir',
   },
   {
     icon: Package,
-    title: 'Ürün Toplama',
+    title: 'Urun Toplama',
     description:
-      'Paketlenmiş ürünleri düzenli olarak çalışanlarımızdan teslim alırız. Her ürün özenle kontrol edilir ve maaş ödemesi yapılır.',
+      'Paketlenmis urunleri düzenli olarak calısşanlarımızdan teslim alırız. Her urun ozenle kontrol edilir ve maaş ödemesi yapılır.',
   },
   {
     icon: ShieldCheck,
-    title: 'Devlet Onaylı Hizmet',
+    title: 'Devlet Onayli Hizmet',
     description:
-      'Maliye Bakanlığı onaylı olarak faaliyet göstermekteyiz. Tüm işlemler yasal çerçevede, güvenilir ve şeffaf şekilde yürütülür.',
+      'Maliye Bakanlığı onaylı olarak faaliyet gostermekteyiz. Tum islemler yasal çerçevede, güvenilir ve seffaf sekilde yürütülür.',
   },
   {
     icon: Users,
     title: 'is Ortaklığı',
     description:
-      'Müşterilerimize paketleme işi göndererek evden calışma imkanı sağlıyoruz. Satış yapılmaz, devlet onaylı gonderim ve dağıtım hizmeti sunulmaktadır.',
+      'Müşterilerimize paketleme isi gondererek evden calışma imkanı sağlıyoruz. Satış yapılmaz, devlet onaylı gonderim ve dağıtım hizmeti sunulmaktadır.',
   },
 ]
 
@@ -33,13 +33,13 @@ export default function Services() {
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="text-center">
           <span className="text-sm font-semibold uppercase tracking-wider text-accent">
-            Hizmetlerimiz.
+            Hizmetlerimiz
           </span>
           <h2 className="mt-2 text-balance text-2xl font-bold text-foreground md:text-3xl lg:text-4xl">
             {'Neler Sunuyoruz?'}
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-pretty text-muted-foreground">
-            {'Satış yapılmaz. Devlet onaylı gönderim ve dağıtım hizmeti sunulmaktadır.'}
+            {'Satis yapilmaz. Devlet onayli gonderim ve dagitim hizmeti sunulmaktadir.'}
           </p>
         </div>
 

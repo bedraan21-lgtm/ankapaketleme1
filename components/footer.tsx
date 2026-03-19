@@ -18,7 +18,7 @@ export default function Footer() {
               Firmamız tarafından ürünler (çorap) çalışanlarımıza ulaştırılmakta,
               paketleme işlemleri çalışanlarımız tarafından gerçekleştirilmektedir.
               Paketleme süreci tamamlanan ürünler firmamızca geri teslim alınarak
-              Türkiye nin 81 iline sevk ve dağıtımı sağlanmaktadır.
+              Türkiye’nin 81 iline sevk ve dağıtımı sağlanmaktadır.
             </p>
           </div>
 
